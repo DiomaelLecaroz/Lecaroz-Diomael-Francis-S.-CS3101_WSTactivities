@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef6f6;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    background-color: #ffe6f2;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+    border: 1px solid #ffccf2;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #d5006d;
+}
+
+h2 {
+    color: #ff69b4;
+}
